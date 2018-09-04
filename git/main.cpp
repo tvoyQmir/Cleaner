@@ -5,7 +5,7 @@
 template <typename T>
 std::list<T> VectorToList (std::vector<T>& v)
 {
-    std::list<int> list;
+    std::list<T> list;
 
     for (const auto& el:v)
     {
