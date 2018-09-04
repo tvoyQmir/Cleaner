@@ -11,7 +11,7 @@ std::list<T> VectorToList (std::vector<T>& v)
     {
         l.push_back(el);
     }
-    return l;
+    return list;
 }
 
 template <typename T1>
