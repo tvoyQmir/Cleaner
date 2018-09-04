@@ -3,9 +3,9 @@
 #include <list>
 
 template <typename T>
-std::list<T> VectorToList (std::vector<T> v)
+std::list<T> VectorToList (std::vector<T>& v)
 {
-    std::list<int> l;
+    std::list<int> list;
 
     for (auto el:v)
     {
@@ -15,7 +15,7 @@ std::list<T> VectorToList (std::vector<T> v)
 }
 
 template <typename T1>
-void PrintList (std::list<T1> list)
+void PrintList (std::list<T1>& list)
 {
     for(auto element:list)
     {
