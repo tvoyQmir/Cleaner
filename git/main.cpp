@@ -17,7 +17,7 @@ std::list<T> VectorToList (std::vector<T>& v)
 template <typename T1>
 void PrintList (std::list<T1>& list)
 {
-    for(auto element:list)
+    for(const auto& element:list)
     {
         std::cout<<element<<std::endl;
     }
