@@ -9,7 +9,7 @@ std::list<T> VectorToList (std::vector<T>& v)
 
     for (const auto& el:v)
     {
-        l.push_back(el);
+        list.push_back(el);
     }
     return list;
 }
